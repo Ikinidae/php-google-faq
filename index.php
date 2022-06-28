@@ -79,12 +79,6 @@
                 <br><br><br>"
         ]
     ];
-
-    foreach ($q_a_array as $key) {
-        foreach ($key as $q_a) {
-            echo $q_a;
-        }
-    }
 ?>
 
 <!DOCTYPE html>
@@ -116,5 +110,12 @@
         }
     </style>
     
+    <?php
+        foreach ($q_a_array as $key) {
+            foreach ($key as $q_a) {
+                echo $q_a;
+            }
+        };
+    ?>
 </body>
 </html>
